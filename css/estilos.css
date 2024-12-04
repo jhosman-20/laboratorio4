@@ -1,0 +1,112 @@
+* {
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body {
+
+    margin: 40px;
+}
+
+hr {
+    margin: 20px 0;
+}
+
+.logo {
+max-width: 80px;
+}
+
+/*estilos del menu*/
+
+.menu-nav{
+    display:flex ;
+    align-items: center;
+
+
+}
+.menu {
+
+     list-style: none;
+     display: flex;
+     margin: 0 20px;
+     gap:20px;
+   
+}
+
+.btn-menu {
+     text-decoration: none;
+     font-weight: bold;
+     color: black;
+     padding: 5px;
+     cursor: pointer;
+}
+.btn-menu:hover{
+    color: white;
+
+}
+
+
+
+.activo {
+    background-color:#2e8253 ;
+    color: black;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.activo:hover{
+
+}
+
+/* estilos del contenedor*/
+
+
+
+/*estilos del pie*/
+
+.pie {
+
+    background-color:#2e8253 ;
+    color: black;
+    border-radius: 5px;
+    
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+/*estilos del contenedor */
+
+
+.contenido{   
+display:flex;
+flex-direction: column;
+align-items: center;
+}
+
+.publicidad img {
+
+    max-height: min-content;
+
+}
+
+.bandeja{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 20px;
+}
+
+.tarjeta {
+    text-align:center;
+    border: 2px solid rgb(29, 24, 24);
+    border-radius: 8px;
+    padding: 20px;
+    
+}
+
+.tarjeta h3 {
+    color: #5b5555;
+}
