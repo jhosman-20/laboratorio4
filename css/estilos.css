@@ -89,7 +89,10 @@ align-items: center;
 
 .publicidad img {
 
-    max-height: min-content;
+    display: block;
+    margin: 20PX;
+    max-width: 100%;
+    width: 90%;
 
 }
 
