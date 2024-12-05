@@ -15,64 +15,62 @@ hr {
     margin: 20px 0;
 }
 
+img {
+
+    display: block;
+    margin: 20px;
+    max-width: 100%;
+    width: 90%;
+
+}
+
 .logo {
-max-width: 80px;
+    max-width: 80px;
 }
 
 /*estilos del menu*/
 
-.menu-nav{
-    display:flex ;
+.menu-nav {
+    display: flex;
     align-items: center;
-
-
 }
-.menu {
 
-     list-style: none;
-     display: flex;
-     margin: 0 20px;
-     gap:20px;
-   
+.menu {
+    list-style: none;
+    display: flex;
+    margin: 0 20px;
+    gap: 20px;
 }
 
 .btn-menu {
-     text-decoration: none;
-     font-weight: bold;
-     color: black;
-     padding: 5px;
-     cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    padding: 5px;
+    cursor: pointer;
 }
-.btn-menu:hover{
-    color: white;
 
+.btn-menu:hover {
+    color: white;
 }
 
 
 
 .activo {
-    background-color:#2e8253 ;
+    background-color: #2e8253;
     color: black;
     border: 1px solid;
     border-radius: 5px;
 }
 
-.activo:hover{
-
-}
-
-/* estilos del contenedor*/
-
-
 
 /*estilos del pie*/
 
 .pie {
-
-    background-color:#2e8253 ;
+    background-color: #2e8253;
     color: black;
     border-radius: 5px;
-    
+
     text-align: center;
     font-weight: bold;
     padding: 10px 0;
@@ -81,33 +79,31 @@ max-width: 80px;
 /*estilos del contenedor */
 
 
-.contenido{   
-display:flex;
-flex-direction: column;
-align-items: center;
+.contenido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .publicidad img {
-
     display: block;
-    margin: 20PX;
+    margin: 20px;
     max-width: 100%;
     width: 90%;
-
 }
 
-.bandeja{
+.bandeja {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
 }
 
 .tarjeta {
-    text-align:center;
+    text-align: center;
     border: 2px solid rgb(29, 24, 24);
     border-radius: 8px;
     padding: 20px;
-    
+
 }
 
 .tarjeta h3 {
@@ -115,8 +111,38 @@ align-items: center;
 }
 
 .tarjeta a {
-color: ;
-text-decoration: none;
-margin: ;
+    text-decoration: none;
+}
+
+
+.animales {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    text-align: center;
+    text-align: center;
+    
 
 }
+    
+.ani {
+    text-align: center;
+    border: 2px solid rgb(29, 24, 24);
+    border-radius: 8px;
+    padding: 20px;
+
+
+}
+
+.animales1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 130px;
+    text-align: center;
+    text-align: center;
+    padding: 100px;
+    
+
+
+}
+
