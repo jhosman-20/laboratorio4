@@ -8,7 +8,7 @@
 </head>
 <body>
     <nav class="menu-nav"> <img src="src/img/logo.jpg" class="logo" alt=""> 
-        <ul class="menu">
+        <ul class="menu4">
           <li><a href="index.html" class="btn-menu ">Inicio</a></li>
           <li><a href="galeria.html" class="btn-menu">Imagenes</a></li>
           <li><a href="videos.html" class="btn-menu">Videos</a></li>
@@ -17,19 +17,30 @@
     </nav>
 
     <hr>
-    <div class="contenido">
-        <section class="publicidad">
-        
-             
-        </section>
+    <div class="container">
+      <h2>Formulario de Contacto</h2>
+      <form action="#" method="POST" id="contact-form" class="for">
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" placeholder="Ingresa tu nombre" required>
   
-  </div>
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" placeholder="Ingresa tu correo" required>
+  
+        <label for="message">Mensaje:</label>
+        <textarea id="message" name="message" rows="4" placeholder="Escribe tu mensaje" required></textarea>
+  
+        <div class="buttons">
+          <button type="submit" id="submit-btn">Enviar</button>
+          <button type="reset" id="cancel-btn">Cancelar</button>
+        </div>
+      </form>
+    </div>
   
 <footer>
   <hr>
   <div class="pie">
 
-  pie de pagina de 
+ formularios contactos
 
   </div>
 

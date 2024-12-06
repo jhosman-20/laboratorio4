@@ -40,6 +40,8 @@ img {
     display: flex;
     margin: 0 20px;
     gap: 20px;
+   
+
 }
 
 .btn-menu {
@@ -48,10 +50,11 @@ img {
     color: black;
     padding: 5px;
     cursor: pointer;
+
 }
 
 .btn-menu:hover {
-    color: white;
+    color: rgb(196, 56, 21);
 }
 
 
@@ -141,8 +144,139 @@ img {
     text-align: center;
     text-align: center;
     padding: 100px;
+    text-align: center;
     
 
 
 }
+.vid {
+    text-align: center;
+    border: 2px solid rgb(29, 24, 24);
+    border-radius: 8px;
+    padding: 20px;
+    color: black;
+    border-color:black;
+    
+    
 
+}
+
+
+.doc{
+ color: black; 
+
+}
+
+
+/*estilos de la tabla*/
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: #333;
+    color: #fff;
+}
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+tr:hover {
+    background-color: #e9e9e9;
+}
+caption {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+ /*contactos*/
+ 
+ .container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+    align-content: center;
+    margin: auto;
+    background-image: url('leon.gif');
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  input, textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  input[type="text"], input[type="email"], textarea {
+    width: 100%;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  #submit-btn {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  #cancel-btn {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+ 
+.for {
+align-content: center;
+}  
+.menu4{
+margin: auto;
+list-style: none;
+display: flex;
+gap: 20px;
+
+}
